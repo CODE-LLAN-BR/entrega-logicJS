@@ -27,7 +27,7 @@ let studentList = [{
 function sumOfNotes(list){
     
     for(let i = 0 ; i < list.length;i++){
-        let total= (list[i].firstNote + list[i].secondNote) /2 .toFixed(2);
+        let total= (list[i].firstNote + list[i].secondNote) /2 ;
         total= total.toFixed(1)
         if( total >=7 ){
             alert(`Á média do aluno(a) ${list[i].name} é ${total} 
